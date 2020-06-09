@@ -5,7 +5,12 @@ body {
   margin: 2em;
 }
 
-#gameboard{
+.row{
+border-width:2px;
+border-style:solid;
+border-color:black;
+}
+.col-sm{
 border-width:2px;
 border-style:solid;
 border-color:black;
