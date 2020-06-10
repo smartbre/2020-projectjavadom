@@ -3,14 +3,14 @@
 
 .case{
   margin: 25px;
-  padding: 25px;
+  padding: 50px;
 }
 .row{
 border-width:2px;
 border-style:solid;
 border-color:black;
 }
-.col-sm{
+.col-4{
 border-width:2px;
 border-style:solid;
 border-color:black;
