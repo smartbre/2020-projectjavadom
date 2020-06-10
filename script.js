@@ -4,20 +4,20 @@
 // prints "hi" in the browser's dev tools console
 console.log("working");
 
-let rw1cl1 = document.querySelector(".aa");
-let rw1cl2 = document.querySelector(".ab");
-let rw1cl3 = document.querySelector(".ac");
-let rw2cl1 = document.querySelector(".ba");
-let rw2cl2 = document.querySelector(".bb");
-let rw2cl3 = document.querySelector(".bc");
-let rw3cl1 = document.querySelector(".ca");
-let rw3cl2 = document.querySelector(".cb");
-let rw3cl3 = document.querySelector(".cc");
-let check = document.querySelector(".check")
+let rw1cl1 = document.querySelector("#soda");
+let rw1cl2 = document.querySelector("#salad");
+let rw1cl3 = document.querySelector("#friedc");
+let rw2cl1 = document.querySelector("#ba");
+let rw2cl2 = document.querySelector("#bb");
+let rw2cl3 = document.querySelector("#bc");
+let rw3cl1 = document.querySelector("#ca");
+let rw3cl2 = document.querySelector("#cb");
+let rw3cl3 = document.querySelector("#cc");
+let check = document.querySelector("#check")
 let sum=0
 
 rw1cl1.addEventListener("click", (e) => {
-  rw1c1.innerHMTL=
+  check.classList.add("#aa")
   console.log("#1 clicked");
 });
 
