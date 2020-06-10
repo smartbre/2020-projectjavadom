@@ -14,7 +14,6 @@ let rw3cl1 = document.querySelector("#mustard");
 let rw3cl2 = document.querySelector("#ketchup");
 let rw3cl3 = document.querySelector("#shake");
 let check = document.querySelector("#check");
-let clicked = document.querySelector("#clicked")
 let sum = 0;
 
 rw1cl1.addEventListener("click", e => {
@@ -24,6 +23,7 @@ rw1cl1.addEventListener("click", e => {
   console.log(check.classList);
   sum += 1;
   check.innerHTML = `Your total is $${sum}`;
+;
 });
 
 rw1cl2.addEventListener("click", e => {
