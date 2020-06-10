@@ -20,59 +20,70 @@ rw1cl1.addEventListener("click", e => {
   check.classList.add("#soda");
   console.log("#soda clicked");
   console.log(check.classList);
-  sum = +1;
+  sum += 1;
+  check.innerHTML = `Your total is $${sum}`;
 });
 
 rw1cl2.addEventListener("click", e => {
   check.classList.add("#salad");
   console.log("salad clicked");
   console.log(check.classList);
-  sum = +0.5;
+  sum += 0.5;
+  check.innerHTML = `Your total is $${sum}`;
 });
 
 rw1cl3.addEventListener("click", e => {
   check.classList.add("#chicken");
   console.log("chicken clicked");
   console.log(check.classList);
-  sum = +2;
+  sum += 2;
+  check.innerHTML = `Your total is $${sum}`;
 });
 
 rw2cl1.addEventListener("click", e => {
   check.classList.add("#burger");
   console.log("#urger clicked");
   console.log(check.classList);
-  sum = +2;
-
+  sum += 2;
+  check.innerHTML = `Your total is $${sum}`;
 });
 
 rw2cl2.addEventListener("click", e => {
   check.classList.add("#fries");
   console.log("fries clicked");
   console.log(check.classList);
+  sum += 1;
+  check.innerHTML = `Your total is $${sum}`;
 });
 
 rw2cl3.addEventListener("click", e => {
   check.classList.add("#hotdog");
   console.log("hotdog clicked");
   console.log(check.classList);
+  sum += 1;
+  check.innerHTML = `Your total is $${sum}`;
 });
 
 rw3cl1.addEventListener("click", e => {
   check.classList.add("#mustard");
   console.log("mustard clicked");
   console.log(check.classList);
+  sum += 0;
+  check.innerHTML = `Your total is $${sum}`;
 });
 
 rw3cl2.addEventListener("click", e => {
   check.classList.add("#ketchup");
   console.log("ketchup clicked");
   console.log(check.classList);
+  sum += 0;
+  check.innerHTML = `Your total is $${sum}`;
 });
 
 rw3cl3.addEventListener("click", e => {
   check.classList.add("#shake");
   console.log("shake clicked");
   console.log(check.classList);
+  sum += 3;
+  check.innerHTML = `Your total is $${sum}`;
 });
-
-check.innerHTML = `Your total is $${sum}`;
