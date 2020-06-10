@@ -13,10 +13,11 @@ let rw2cl3 = document.querySelector("#hotdog");
 let rw3cl1 = document.querySelector("#mustard");
 let rw3cl2 = document.querySelector("#ketchup");
 let rw3cl3 = document.querySelector("#shake");
-let check = document.querySelector("#check");
+let check1 = document.querySelector("#check");
 let sum = 0;
 
 rw1cl1.addEventListener("click", e => {
+  soda.classList.add("#clicked");
   check.classList.add("#soda");
   console.log("#soda clicked");
   console.log(check.classList);
@@ -85,5 +86,5 @@ rw3cl3.addEventListener("click", e => {
   console.log("shake clicked");
   console.log(check.classList);
   sum += 3;
-  check.innerHTML = `Your total is $${sum}`;
+  check1.innerHTML = `Your total is $${sum}`;
 });
