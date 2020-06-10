@@ -3,3 +3,6 @@
 
 // prints "hi" in the browser's dev tools console
 console.log("working");
+
+let square1 = docuquerySelector#aa;
+
